@@ -1,0 +1,146 @@
+scrips de Juego Alice
+
+CameraManager
+Este scrip sirve para administrar  los tipos de movimiento de la camara de jugador, es decir cuando y que esta en conjunto
+con la script llamada camera target que es  donde la camara sigue al jugador
+
+-------------------------------------------------------------------
+CameraTarget
+
+Esta Script sirve para el movimiento de la camara a alicia cuando se baja de la nave
+-----------------------------------------------------------------------------------------
+
+CharacterController
+
+Es para el movimiento del jugador en el planeta la velocidad a que tipo de direccion se ira y que podra agarrar 
+objetos con la letra "E" y cuando los agarres se destruiran
+
+--------------------------------------------------------------
+Character interactive
+
+Detecta cuando se oprime la tecla "E" que recoja el item que este cercas y que tenga el tag de Item
+
+------------------------------------------------------------------------
+TriggerForSlider
+
+Se usa para antra o salir de la nave cuando estas en el planeta y sales del planeta
+
+--------------------------------------------------------------
+AzufreItem
+
+Es el material de azufre cuando lo recojes hay 3 y se guardan en tu inventario y sirven para juntarlo con el dioxido y 
+crear gasolina
+
+--------------------------------------------------------------------------------
+Bayasitems
+
+
+Es la comida cuando lo recojes te da 1 de bayas y se guardan en tu inventario para recuperar vida
+
+------------------------------------------------------------------------------------------------
+
+FiltroItem
+
+es para checar si un planeta esta contaminado o no 
+
+----------------------------------------------------------------------------
+HidrogenoItem
+
+hIdrogeno cuando lo recojes te dara 3 de hidrogeno
+
+--------------------------------------------------------------------------
+Iiteractable
+se usa para hacer un interfas de los objetos interactuables
+---------------------------------------------------------------------
+InventoryManager
+Se utiliza para acceder al inventario y los tipos
+
+--------------------------------------------------------------------------------
+MetalItem
+
+Sirve para reparar la nave cuando lo recojes te dara 3 de metal
+
+----------------------------------------------------------------------
+TierraItem
+
+sirve para aparecer en los planetas arbustos,
+
+--------------------------------------------------------------------------------
+
+Atmosphere
+
+identifica cuando entras o sales de la atmosphera
+----------------------------------------------------------------------------------
+GravityManager
+
+se encarga de darle gravedad a los objetos como la nave y el personaje
+
+------------------------------------------------------------------
+
+
+InOutShipManager
+
+Rivisa cuando un objeto esta fuera o dentro de la nave
+
+-------------------------------------------------------------------------------
+
+SpaceShipController
+son los controles de la mano
+
+--------------------------------------------------------------------------------
+SpaceShipManager
+Revisa la cantidad de gasolina y de vida de la nave mientras estas en el espacio
+
+------------------------------------------------------------------------------
+TriggerGround
+Se usa para detectar de que toco suelo del planeta
+
+ClampSlider
+se usa para la camara de la nave
+-------------------------------------------------
+ExitEndGame
+es para detectar cuando pasas o pierdes a la siguiente escena del nivel 
+---------------------------------------------------------
+MenuManager
+se encarga del menu del inventario de los objetos que recolectas
+------------------------------------------------------------
+PalancaNave
+
+checa la palanca del Ui si es para acelerar o frenar
+
+-------------------------------------------------------------------------
+SliderManager
+se usa para prender o apagar los botones de la nave cuando estas en el planeta
+--------------------------------------------------------------------
+
+StartManager
+
+se usa para pasar a la siguiente Scena
+-----------------------------------------------------------------------
+
+Url opener
+
+se usa abrir las paginas del inventario
+-----------------------------------------------------------------
+
+Win Manager
+
+Detecta el boton de la escena de win y de Game Over
+------------------------------------------------------------------------------
+
+Sun
+
+Cuando esta cerca del sol lo detecta y hay game over
+
+
+
+
+
+
+
+
+
+
+
+
+
